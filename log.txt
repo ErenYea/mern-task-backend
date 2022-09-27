@@ -170,3 +170,102 @@ Db connected
 }
 Listening to localhost:9000
 Db connected
+Listening to localhost:9000
+Db connected
+{
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater'
+}
+undefined
+Listening to localhost:9000
+Db connected
+{
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater'
+}
+{
+  _id: new ObjectId("63328a7553eec3bde904db8e"),
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater',
+  __v: 0
+}
+{
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater'
+}
+{
+  _id: new ObjectId("63328a7553eec3bde904db8e"),
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater',
+  __v: 0
+}
+{
+  email: 'alikhanhamza434@gmail.com',
+  password: '1234',
+  type: 'Creater'
+}
+{
+  _id: new ObjectId("63328a7553eec3bde904db8e"),
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater',
+  __v: 0
+}
+{
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater'
+}
+{
+  _id: new ObjectId("63328a7553eec3bde904db8e"),
+  email: 'alikhanhamza434@gmail.com',
+  password: '12345',
+  type: 'Creater',
+  __v: 0
+}
+{
+  email: 'alikhanhamza436@gmail.com',
+  password: '12345',
+  type: 'Viewer'
+}
+{
+  email: 'alikhanhamza436@gmail.com',
+  password: '1234',
+  type: 'Viewer'
+}
+{
+  _id: new ObjectId("6333219fdc02073e515b2d5c"),
+  email: 'alikhanhamza436@gmail.com',
+  password: '12345',
+  type: 'Viewer',
+  __v: 0
+}
+{
+  email: 'alikhanhamza436@gmail.com',
+  password: '12345',
+  type: 'Viewer'
+}
+{
+  _id: new ObjectId("6333219fdc02073e515b2d5c"),
+  email: 'alikhanhamza436@gmail.com',
+  password: '12345',
+  type: 'Viewer',
+  __v: 0
+}
+{
+  email: 'alikhanhamza436@gmail.com',
+  password: '12345',
+  type: 'Creater'
+}
+{
+  _id: new ObjectId("6333219fdc02073e515b2d5c"),
+  email: 'alikhanhamza436@gmail.com',
+  password: '12345',
+  type: 'Viewer',
+  __v: 0
+}
