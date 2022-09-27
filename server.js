@@ -24,7 +24,6 @@ db.once("open", () => {
 // middleware
 app.use(express.json());
 app.use(cors());
-app.use(express.static("public"));
 app.use(fileUpload());
 
 //routes
@@ -44,13 +43,6 @@ app.post("/signup", (req, res) => {
       res.status(201).send(data);
     }
   });
-
-  // calling mangoos for storing signup info
-
-  // res.status(201).send({
-  //     message:"Success",
-  //     data
-  // })
 });
 
 app.post("/createpost", (req, res) => {
@@ -74,25 +66,6 @@ app.post("/createpost", (req, res) => {
       res.status(201).send(datass);
     }
   });
-  // var blob = new Blob([data.file]);
-  // var fil = new File([blob], "foo.txt");
-  // const ff = new File(, "hmaza");
-  // console.log(data.file.name);
-  // file handling
-  // const file = data.file;
-  // file.mv(`public/images/${file.name}`, (err) => {
-  //   if (err) {
-  //     console.log(err);
-  //     res.status(500).send(err);
-  //   }
-  // });
-
-  // saving it inside mangodb as a creater
-
-  // res.status(201).send({
-  //   message: "success",
-  //   data,
-  // });
 });
 
 app.get("/post", (req, res) => {
