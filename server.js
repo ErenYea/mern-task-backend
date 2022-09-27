@@ -36,9 +36,10 @@ app.get("/", (req, res) => {
 app.post("/signup", (req, res) => {
   const data = req.body;
   console.log(data);
+
   Users.create(data, (err, data) => {
     if (err) {
-      res.status(500).send(err);
+      res.status(500).send("The email is already in database");
     } else {
       res.status(201).send(data);
     }
