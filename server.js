@@ -85,7 +85,17 @@ app.post("/signup", (req, res) => {
 
   Users.create(data, (err, data) => {
     if (err) {
-      res.status(500).send("The email is already in database");
+      Users.findOne({ email: req.body.email }, (err, data) => {
+        console.log(data);
+        if (data.password == req.body.password) {
+          res.status(200).send(data);
+        } else {
+          res.status(500).send({
+            message: "Invalid password",
+          });
+        }
+      });
+      // res.status(500).send("The email is already in database");
     } else {
       res.status(201).send(data);
     }
